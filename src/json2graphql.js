@@ -136,8 +136,8 @@ function checkList(types) {
 		const elem = types[key];
 		if(elem.isList) {
 			elem.type = GraphQLList(elem.type);
-    }
-    types[key] = elem;
+		}
+		types[key] = elem;
   }
   return types;
 }
@@ -165,4 +165,4 @@ function json2graphql(data) {
 	return createRoot(schema);
 }
 
-console.log(json2graphql({name: "Adheesh", url:"adhbh.github.io", data: {team: "Storefront"}}));
+export default json2graphql;
