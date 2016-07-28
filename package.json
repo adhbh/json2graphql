@@ -1,0 +1,32 @@
+{
+  "name": "json2graphql",
+  "version": "0.0.2",
+  "description": "Convert json to graphql schema",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets es2015,stage-2 -- index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adhbh/json2graphql.git"
+  },
+  "keywords": [
+    "graphql",
+    "schema",
+    "json"
+  ],
+  "author": "adheeshbhatia@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adhbh/json2graphql/issues"
+  },
+  "homepage": "https://github.com/adhbh/json2graphql#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0"
+  }
+}
